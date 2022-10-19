@@ -22,7 +22,7 @@ gem 'test-kitchen'
 gem 'berkshelf', github: 'berkshelf/berkshelf'
 gem 'kitchen-vagrant'
 gem 'vagrant-wrapper'
-gem 'foodcritic', '>= 3.0.3'
+gem 'foodcritic', '>= 4.0.0'
 gem 'chef', '~> 11.10'
 
 gem 'vagrant', github: 'mitchellh/vagrant', ref: 'v1.4.3'
