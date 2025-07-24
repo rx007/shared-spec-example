@@ -18,11 +18,11 @@
 
 source 'https://rubygems.org'
 
-gem 'test-kitchen'
+gem 'test-kitchen', '>= 2.5.2'
 gem 'berkshelf', github: 'berkshelf/berkshelf'
-gem 'kitchen-vagrant'
+gem 'kitchen-vagrant', '>= 1.5.1'
 gem 'vagrant-wrapper'
-gem 'foodcritic', '>= 3.0.3'
+gem 'foodcritic', '>= 4.0.0'
 gem 'chef', '~> 11.10'
 
 gem 'vagrant', github: 'mitchellh/vagrant', ref: 'v1.4.3'
